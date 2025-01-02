@@ -16,7 +16,7 @@ public class PriorityQueue_practice {
         while(it.hasNext())
             System.out.print(it.next()+" ");
         System.out.println();
-        //see the order 
+        //see the order
 
         while(!pq.isEmpty())
         {
