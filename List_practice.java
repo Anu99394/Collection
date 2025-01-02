@@ -22,3 +22,11 @@ public class List_practice {
             System.out.println("p "+ it.next());
     }
 }
+
+//true
+//Anurag3
+//1
+//2
+//p Anurag2
+//p anu
+//p anu
