@@ -9,6 +9,22 @@ public class Vector_practice {
         v.remove(2);
         System.out.println(v);
 
+
+        Vector<String> vector = new Vector<>();
+        vector.add("Alice");
+        vector.add("Bob");
+        vector.add("Charlie");
+
+        // Get the Enumeration object
+        Enumeration<String> enumeration = vector.elements();
+
+        // Traverse elements using Enumeration
+        System.out.println("Traversing elements using Enumeration:");
+        while (enumeration.hasMoreElements()) {
+            String element = enumeration.nextElement();
+            System.out.println(element);
+        }
+
     }
 }
 //[2, 3, 5]
