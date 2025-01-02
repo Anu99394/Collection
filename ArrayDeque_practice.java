@@ -19,4 +19,4 @@ public class ArrayDeque_practice {
 }
 //[4, 2, 1, 3, 5]
 //        [2, 1, 3, 5]
-//        2 1 3 5 
+//        2 1 3 5
