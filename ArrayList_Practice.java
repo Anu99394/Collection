@@ -27,6 +27,14 @@ public class ArrayList_Practice {
 
         System.out.println(l);
 
+        Collections.sort(l);
+
+        System.out.println(l);
+
+        Collections.reverse(l);
+
+        System.out.println(l);
+
     }
 }
 //
