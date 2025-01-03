@@ -31,14 +31,15 @@ public class ArrayList_Practice {
 
         System.out.println(l);
 
-        Collections.reverse(l);
+//        Collections.reverse(l);
 
-        System.out.println(l);
+        int index1=Collections.binarySearch(l,5);
+        int index2=Collections.binarySearch(l,5);
+        System.out.println(index1);
+        System.out.println(index2);
 
     }
 }
-//
-//
 //[2, 1, 3, 3]
 //        2
 //        1
@@ -49,3 +50,6 @@ public class ArrayList_Practice {
 //        3
 //        3
 //        [2, 4, 1, 3, 3]
+//        [1, 2, 3, 3, 4]
+//        -6
+//        -6
