@@ -7,7 +7,7 @@ public class StreamApi_practice {
         List<Integer>list=new ArrayList<>();
         for(int i=1;i<=10;i++)
             list.add(i);
-
+        list.add(10);
         System.out.println(list);
 
         List<Integer>l=list.stream()
